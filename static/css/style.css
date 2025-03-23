@@ -1,0 +1,299 @@
+/* General Layout Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Survey Confirmation Section */
+.confirmation-container {
+    text-align: center;
+    padding: 30px;
+    flex-grow: 1;
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Results List Styling */
+.survey-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.survey-results li {
+    margin: 10px 0;
+}
+
+/* Back to Home Button Styling */
+.button-container {
+    margin-top: 30px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #01684a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+/* Additional New Styles (New Classes) */
+
+/* Styling for Survey Page - Avoid Overlap */
+.survey-page header {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.survey-page .form-container {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.survey-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-page form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.survey-page form select {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Submit Button for Survey */
+.survey-page .submit-button {
+    padding: 20px 40px;
+    background-color: #01684a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.survey-page .submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* "Go Back to Home" Button for Survey */
+.survey-page .back-button {
+    padding: 20px 40px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.survey-page .back-button:hover {
+    background-color: #333;
+}
+
+/* Footer styling for Survey Page */
+.survey-page footer {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Centered bubble form on the survey page */
+.survey-page .form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Global Button Styles for Survey Page */
+.survey-page button {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Additional Styling for Select Inputs */
+.survey-page select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Home Page Specific Styles */
+.home-page-body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Home Page Header Styling */
+.home-page-header {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Message Section for Home Page */
+.home-page-message-section {
+    padding: 20px 20px;
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/* Home Page Button Styling (Smaller Button) */
+.home-page-button {
+    padding: 15px 10px;  /* Smaller padding */
+    background-color: #01684a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;  /* Smaller font size */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+
+.home-page-button:hover {
+    background-color: #0056b3;
+}
+
+/* Home Page Footer Styling */
+.home-page-footer {
+    background-color: #01684a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+/* Survey Data and Predicted Diseases Centering */
+.survey-data ul, .predicted-diseases ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.survey-data li, .predicted-diseases li {
+    margin: 10px 0;
+    font-size: 18px;  /* Adjust font size for readability */
+    text-align: center;  /* Center the text inside each list item */
+}
+
+/* General Centering */
+.confirmation-container {
+    text-align: center;
+    padding: 30px;
+    flex-grow: 1;
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Center the Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #01684a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

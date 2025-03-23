@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome VDT Healthcare</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="home-page-body">  <!-- Updated class for the body -->
+    <header class="home-page-header">  <!-- New class for header -->
+        <h1>VDT Healthcare</h1>
+    </header>
+
+    <!-- Message and Button Section in a Bubble -->
+    <section id="message-section" class="home-page-message-section"> <!-- New class for message section -->
+        <div class="bubble-container">
+            <p>Welcome! This is our free diagnosis tool. Click below to get started!</p>
+            <a href="/survey">
+                <button class="home-page-button">Get started</button>  <!-- Smaller button with new class -->
+            </a>
+        </div>
+    </section>
+    
+    <footer class="home-page-footer">  <!-- New class for footer -->
+        <p>&copy; VDT Healthcare</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
