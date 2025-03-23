@@ -1,0 +1,146 @@
+[
+    {
+        "Fever": "No",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "No",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Normal"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "No",
+        "Gender": "Male",
+        "Blood_Pressure": "Low",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "No",
+        "Gender": "Female",
+        "Blood_Pressure": "Low",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "No",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "Yes",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "No",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Low",
+        "Cholesterol_Level": "High"
+    },
+    {
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "No",
+        "Gender": "Female",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "High"
+    },
+    {
+        "Fever": "No",
+        "Cough": "No",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "No",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Normal"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "Yes",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Normal"
+    },
+    {
+        "Fever": "No",
+        "Cough": "Yes",
+        "Fatigue": "Yes",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Low",
+        "Cholesterol_Level": "Low"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "Yes",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "Yes",
+        "Gender": "Female",
+        "Blood_Pressure": "Low",
+        "Cholesterol_Level": "Normal"
+    },
+    {
+        "Fever": "Yes",
+        "Cough": "Yes",
+        "Fatigue": "No",
+        "Difficulty_Breathing": "No",
+        "Gender": "Male",
+        "Blood_Pressure": "Normal",
+        "Cholesterol_Level": "Normal"
+    }
+]
